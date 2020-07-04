@@ -1,0 +1,11 @@
+/* img.tweet-avatar {
+    display: none !important;
+} */
+
+.account-inline {
+    display: none !important;
+}
+
+.tweet-context > .nbfc {
+    display: none !important;
+}

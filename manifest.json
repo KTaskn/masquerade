@@ -1,0 +1,22 @@
+{
+    "name": "masquerade",
+    "description" : "Masking all user profile on twitter.",
+    "version": "1.0",
+    "manifest_version": 2,
+    "permissions": ["declarativeContent"],
+    "content_scripts":[
+        {
+            "matches": ["https://tweetdeck.twitter.com/*"],
+            "css": ["masking.css"],
+            "js": ["jquery-3.5.1.min.js", "masking.js"]
+        }
+    ],
+    "icons": {
+        "16": "icon16.png",
+        "48": "icon48.png",
+        "128": "icon128.png"
+    },
+    "web_accessible_resources":[
+        "icon128.png"
+    ]
+  }
