@@ -6,7 +6,7 @@
     "permissions": ["declarativeContent"],
     "content_scripts":[
         {
-            "matches": ["https://tweetdeck.twitter.com/*"],
+            "matches": ["https://tweetdeck.twitter.com/*", "https://twitter.com/*"],
             "css": ["masking.css"],
             "js": ["jquery-3.5.1.min.js", "masking.js"]
         }
